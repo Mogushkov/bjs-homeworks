@@ -24,7 +24,9 @@ function sayHello(userName) {
 
 function calculateFormula() {
     
-	// реализуйте здесь задание №3
+	let x = 2, y = 22, z = 0;
+
+	let result = (x * y + 5 * z + x - 1);
     
-    return // ваш ответ;
+    return result;
 }
