@@ -14,8 +14,15 @@ function getResult(a,b,c){
 }
 
 function getAverageMark(marks){
-    // код для задачи №2 писать здесь
-    // return averageMark;
+    let result = [];
+    if (marks.length === 0) {
+        return 0;
+    }
+    else {
+        let result = marks.splice(0, 5);
+        let amount = (result.reduce((a, b) => (a + b)) / result.length;
+        return amount;
+    }
 }
 
 function askDrink(name,dateOfBirthday){
