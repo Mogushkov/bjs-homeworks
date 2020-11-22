@@ -5,10 +5,10 @@ function calculateTotalMortgage(percent, contribution, amount, date) {
         return "Параметр Процентная ставка содержит неправильное значение ${percent}";
     }
     else if (isNaN(contribution)) {
-        return "Параметр Первоначальный взнос содержит неправильное значение ${contribution}";
+        return "Параметр Начальный взнос содержит неправильное значение ${contribution}";
     }
     else if (isNaN(amount)) {
-        return "Параметр Сумма кредита содержит неправильное значение ${amount}";
+        return "Параметр Общая стоимость содержит неправильное значение ${amount}";
     }
     let percentRate = (percent / 100) / 12;
     let period = (date.getFullYear() - new Date().getFullYear()) * 12 + (date.getMonth() - new Date().getMonth()); 
