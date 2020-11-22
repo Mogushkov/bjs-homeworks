@@ -20,7 +20,7 @@ function getAverageMark(marks){
     }
     else {
         let result = marks.splice(0, 5);
-        let amount = (result.reduce((a, b) => (a + b)) / result.length;
+        let amount = (result.reduce((a, b) => (a + b)) / result.length);
         return amount;
     }
 }
