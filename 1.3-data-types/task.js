@@ -21,5 +21,5 @@ function getGreeting(name) {
     if (!name) {
         name = "Аноним";
     }
-return "Привет, мир! Меня зовут ${name}";
+return `Привет, мир! Меня зовут ${name}`;
 }
