@@ -16,8 +16,6 @@ function getResult(a,b,c){
 function getAverageMark(marks){
     if (marks.length > 5) {
         marks.splice(5);
-     
-
      } if (marks.length == 0) {
          return 0;
      } 
